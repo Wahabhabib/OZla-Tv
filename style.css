@@ -1,0 +1,188 @@
+*
+			{
+				margin:0;
+				padding:0;
+			}
+		
+			body
+			{
+			background:black;!important;
+			}
+			
+			#container
+			{
+			border: 2px solid black;
+			background-color:white;
+			color:white;
+			width:1330px;
+			height:600px;
+			margin:0 auto;
+			}
+			
+			#header{
+				background-color:brown;
+				width:1330px;
+				height:80px;
+			}
+			
+			#head
+			{
+				font-size:20px;
+				padding: 0px 20px;
+				line-height: 80px;
+				text-align:center;
+			}
+			
+			nav
+			{
+				background-color:orange;
+				width:1330px;
+				height:50px;
+			}
+			
+			ul
+			{
+				list-style:none;				
+			}
+				
+			ul li
+			{
+				width:180px;
+				height: 50px;
+				text-align:center;
+				line-height:50px;
+				float:left;
+				padding-right:10px;
+				transitin: 1s ;
+			} 
+			
+			ul li:active
+			{
+				text-decoration:none;
+				color:white;
+				display: block;	
+			}
+			 
+			ul li:active 
+			{
+				background-color:red;
+				height:50px;
+				font-weight:bold;
+				border-radius:100px;
+			}
+			
+			
+			main{}
+			
+			
+			section
+				{
+				background-image:url(../image/data.png);
+				color:black;
+				width:850px;
+				height:400px;
+				float:left;
+				overflow:uto;
+			}
+					
+			.form_1
+			{
+				opacity: 0.8;
+				filter: alpha(opacity=80);
+				font-weight:bold;
+				box-shadow:0 0 20px black inset;
+				background-color:#f1f1f1;
+				width: 500px;
+				margin: 20px auto;
+				line-height:50px;
+				text-align:center;
+						
+			}
+					
+			.welcome
+			{
+				font-size:30px;
+			}
+						
+			input[type='password'], input[type='email']
+			{
+				height: 30px;
+				border-bottom:1px solid black;
+				outline:none;
+			}
+									
+			input[type='password']:hover, input[type='email']:hover
+			{
+				border-bottom:2px solid brown;
+			}
+															
+			input[type='submit']
+			{
+				background-color:silver;
+				color:white;
+				margin:20px;
+				width:210px;
+				height:20px;
+			}
+									
+			input[type='submit']:hover
+			{
+				background-color:brown;
+				color:white;
+				font-weight:bold;
+			}
+									
+			aside
+			{
+				background-color:gold;
+				width:480px;
+				height:400px;
+				float:left; 
+			}
+				
+			h2
+			{
+				text-align:center;
+			}
+					
+			#latest_post_group
+			{
+				padding: 0 25px;
+			}
+						
+			.latest_post
+			{							
+				background-color:brown;
+				color:white;
+				text-align:center;
+				padding:5px 0;
+				margin: 10px 0;			
+				box-shadow: 0 0 10px black inset;
+			}
+			
+			textarea
+			{
+			resize: none;
+			margin-left:  25px;
+			}
+			
+			#submit_comment input[type='submit']
+			{
+				background-color:brown;							
+				height:40px;
+				width:430px						
+			}
+			
+			#submit_comment input[type='submit']:hover
+			{
+				background-color:red;
+				font-weight:bold;										
+			}
+			
+			footer{
+				background-color:brown;
+				width:1330px;
+				height:70px;
+				text-align:center;
+				 line-height:70px;
+			}
