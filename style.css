@@ -58,7 +58,6 @@
 			
 			ul li:active
 			{
-				text-decoration:none;
 				color:white;
 				display: block;	
 			}
@@ -70,14 +69,19 @@
 				font-weight:bold;
 				border-radius:100px;
 			}
-			
+			a{
+				text-decoration: none;
+			}
+			ul li:active a{
+				color: white;
+			}
 			
 			main{}
 			
 			
 			section
 				{
-				background-image:url(../image/data.png);
+				background-image:url(images/data.png);
 				color:black;
 				width:850px;
 				height:400px;
